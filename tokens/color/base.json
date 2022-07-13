@@ -1,35 +1,28 @@
 {
   "color": {
-    "base": {
+      "primary" :             { "value": "#5F10B7"},
+      "hover" :               { "value": "#2F085B"},
+      "dark-hover" :          { "value": "#130324"},
+      "inactive" :            { "value": "#DFCFF0"},
+      "inactive-content" :    { "value": "rgba(95, 16, 183, 0.8)"},
 
-      "primary" :             { "value": "#5F10B7", "attributes": {"font": "base"}},
-      "hover" :               { "value": "#2F085B", "attributes": {"font": "base"}},
-      "dark-hover" :          { "value": "#130324", "attributes": {"font": "base"}},
-      "inactive" :            { "value": "#DFCFF0", "attributes": {"font": "base"}},
-      "inactive-content" :    { "value": "rgba(95, 16, 183, 0.8)", "attributes": {"font": "base"}},
+      "health" :              { "value": "#B93A83"},
+      "mindset" :             { "value": "#2598D5"},
+      "finance" :             { "value": "#B1B923"},
 
-      "health" :              { "value": "#B93A83", "attributes": {"font":"base"}},
-      "mindset" :             { "value": "#2598D5", "attributes": {"font":"base"}},
-      "finance" :             { "value": "#B1B923", "attributes": {"font":"base"}},
+      "focus"  :            { "value": "#FCE4EC"},
+      "success" :           { "value": "#F8BBD0"},
+      "warning" :           { "value": "#E91E63"},
+      "error" :             { "value": "#880E4F"},
 
-      "alert": {
-        "focus"  :            { "value": "#FCE4EC", "attributes": {"font": "base"}},
-        "success" :           { "value": "#F8BBD0", "attributes": {"font": "base"}},
-        "warning" :           { "value": "#E91E63", "attributes": {"font": "base"}},
-        "error" :             { "value": "#880E4F", "attributes": {"font": "base"}}
-      },
-
-      "greyscale": {
-        "black" :             { "value": "#000000", "attributes": {"font":"base"}},
-        "gray-1" :            { "value": "#212121", "attributes": {"font":"base"}},
-        "gray-2" :            { "value": "#4D4D4D", "attributes": {"font":"base"}},
-        "gray-3" :            { "value": "#7E7E7E", "attributes": {"font":"base"}},
-        "gray-4" :            { "value": "#B3B3B3", "attributes": {"font":"base"}},
-        "gray-5" :            { "value": "#CCCCCC", "attributes": {"font":"base"}},
-        "gray-6" :            { "value": "#E5E5E5", "attributes": {"font":"base"}},
-        "gray-7" :            { "value": "#EDEDED", "attributes": {"font":"base"}},
-        "white" :             { "value": "#ffffff", "attributes": {"font":"base"}}
-      }
-    }
+      "black" :             { "value": "#000000"},
+      "gray-1" :            { "value": "#212121"},
+      "gray-2" :            { "value": "#4D4D4D"},
+      "gray-3" :            { "value": "#7E7E7E"},
+      "gray-4" :            { "value": "#B3B3B3"},
+      "gray-5" :            { "value": "#CCCCCC"},
+      "gray-6" :            { "value": "#E5E5E5"},
+      "gray-7" :            { "value": "#EDEDED"},
+      "white" :             { "value": "#ffffff"}
   }
 }

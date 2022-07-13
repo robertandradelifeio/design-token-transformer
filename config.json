@@ -17,10 +17,19 @@
         },
         {
           "format": "scss/variables",
-          "destination": "assets/_font.scss",
+          "destination": "global/_font.scss",
           "filter": {
             "attributes": {
               "category": "font"
+            }
+          }
+        },
+        {
+          "format": "scss/variables",
+          "destination": "global/_size.scss",
+          "filter": {
+            "attributes": {
+              "category": "size"
             }
           }
         }

@@ -1,11 +1,11 @@
 {
   "color": {
     "font": {
-      "primary":      { "value": "{color.base.primary.value}" },
-      "error":        { "value": "{color.base.alert.error.value}" },
-      "warning":      { "value": "{color.base.alert.warning.value}" },
-      "success":      { "value": "{color.base.alert.success.value}" },
-      "inactive":     { "value": "{color.base.inactive-content.value}" }
+      "primary":      { "value": "{color.primary.value}" },
+      "error":        { "value": "{color.error.value}" },
+      "warning":      { "value": "{color.warning.value}" },
+      "success":      { "value": "{color.success.value}" },
+      "inactive":     { "value": "{color.inactive-content.value}" }
     }
   }
 }
