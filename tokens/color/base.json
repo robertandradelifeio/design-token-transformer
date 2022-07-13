@@ -1,7 +1,8 @@
 {
   "color": {
+    "base": {
       "primary" :             { "value": "#5F10B7"},
-      "hover" :               { "value": "#2F085B"},
+      "primary-hover" :       { "value": "#2F085B"},
       "dark-hover" :          { "value": "#130324"},
       "inactive" :            { "value": "#DFCFF0"},
       "inactive-content" :    { "value": "rgba(95, 16, 183, 0.8)"},
@@ -24,5 +25,6 @@
       "gray-6" :            { "value": "#E5E5E5"},
       "gray-7" :            { "value": "#EDEDED"},
       "white" :             { "value": "#ffffff"}
+    }
   }
 }
