@@ -5,10 +5,35 @@
   "platforms": {
     "scss": {
       "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
+      "files": [
+        {
+          "format": "scss/variables",
+          "destination": "global/_color.scss",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "format": "scss/variables",
+          "destination": "global/_font.scss",
+          "filter": {
+            "attributes": {
+              "category": "font"
+            }
+          }
+        },
+        {
+          "format": "scss/variables",
+          "destination": "global/_size.scss",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        }
+      ]
     }
   }
 }

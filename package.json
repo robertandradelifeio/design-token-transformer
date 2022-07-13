@@ -12,5 +12,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "style-dictionary": "latest"
+  },
+  "dependencies": {
+    "token-transformer": "^0.0.24"
   }
 }
