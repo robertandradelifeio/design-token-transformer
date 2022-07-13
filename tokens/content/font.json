@@ -1,8 +1,8 @@
 {
     "font": {
         "web": {
-            "head": {
-            "54 regular | h1": {
+
+            "h1-regular-xl": {
                 "description": "Lato 54/64 Regular | XL desktop +1080px. Oversized desktop headlines; use in moderation.",
                 "type": "custom-fontStyle",
                 "value": {
@@ -25,7 +25,7 @@
                 }
                 }
             },
-            "54 light | h1": {
+            "h1-light-xl": {
                 "description": "Lato 54/64 Light | XL desktop +1080px. Oversized desktop headlines; use in moderation.",
                 "type": "custom-fontStyle",
                 "value": {
@@ -48,7 +48,7 @@
                 }
                 }
             },
-            "36 regular | h1, h2": {
+            "h1-regular": {
                 "description": "Lato 36/40 Regular | Desktop headlines",
                 "type": "custom-fontStyle",
                 "value": {
@@ -71,7 +71,7 @@
                 }
                 }
             },
-            "36 light | h1, h2": {
+            "h1-light": {
                 "description": "Lato 36/40 Light | Desktop headlines",
                 "type": "custom-fontStyle",
                 "value": {
@@ -94,7 +94,7 @@
                 }
                 }
             },
-            "26 light | h2, h3": {
+            "h2-light": {
                 "description": "Lato 26/Auto Light | Desktop headlines",
                 "type": "custom-fontStyle",
                 "value": {
@@ -117,7 +117,7 @@
                 }
                 }
             },
-            "24 bold | h3, h4": {
+            "h3-bold": {
                 "description": "Lato 24/28 Bold | Headline",
                 "type": "custom-fontStyle",
                 "value": {
@@ -140,7 +140,7 @@
                 }
                 }
             },
-            "22 regular | h3, h4": {
+            "h4-regular": {
                 "description": "Lato 22/32 Regular | Headline, subtitle, body",
                 "type": "custom-fontStyle",
                 "value": {
@@ -163,7 +163,7 @@
                 }
                 }
             },
-            "22 light | h4, h5": {
+            "h4-light": {
                 "description": "Lato 22/32 Light | Headline, subtitle, body",
                 "type": "custom-fontStyle",
                 "value": {
@@ -186,7 +186,7 @@
                 }
                 }
             },
-            "18 bold | h5, h6": {
+            "h5-bold": {
                 "description": "Lato 18/Auto Bold | Headline",
                 "type": "custom-fontStyle",
                 "value": {
@@ -209,7 +209,7 @@
                 }
                 }
             },
-            "18 regular  | h5, h6": {
+            "h5-regular": {
                 "description": "Lato 18/Auto Regular | Headline",
                 "type": "custom-fontStyle",
                 "value": {
@@ -231,10 +231,9 @@
                     "exportKey": "font"
                 }
                 }
-            }
             },
-            "subtitle": {
-            "20 bold  | subtitle": {
+
+            "subtitle-bold": {
                 "description": "Lato 20/32 Bold | Subtitle",
                 "type": "custom-fontStyle",
                 "value": {
@@ -257,7 +256,7 @@
                 }
                 }
             },
-            "20 regular  | subtitle": {
+            "subtitle-regular": {
                 "description": "Lato 20/32 Regular | Subtitle",
                 "type": "custom-fontStyle",
                 "value": {
@@ -280,7 +279,7 @@
                 }
                 }
             },
-            "20 light  | subtitle": {
+            "subtitle-light": {
                 "description": "Lato 20/28 Light | Subtitle",
                 "type": "custom-fontStyle",
                 "value": {
@@ -303,7 +302,7 @@
                 }
                 }
             },
-            "16 bold caps | subtitle": {
+            "subtitle-bold-caps": {
                 "description": "Lato 16/Auto BOLD CAPS | Web\nSubtitle",
                 "type": "custom-fontStyle",
                 "value": {
@@ -325,10 +324,10 @@
                     "exportKey": "font"
                 }
                 }
-            }
             },
-            "body": {
-            "16 bold | body": {
+            
+
+            "body-bold": {
                 "description": "Lato 16/22 Bold | Body (Desktop)",
                 "type": "custom-fontStyle",
                 "value": {
@@ -351,7 +350,7 @@
                 }
                 }
             },
-            "16 regular | body": {
+            "body-regular": {
                 "description": "Lato 16/22 Regular | Body (Desktop)",
                 "type": "custom-fontStyle",
                 "value": {
@@ -373,10 +372,10 @@
                     "exportKey": "font"
                 }
                 }
-            }
             },
-            "links": {
-            "16 bold | body": {
+
+
+            "link-bold": {
                 "description": "Lato 16/24 Bold | Links",
                 "type": "custom-fontStyle",
                 "value": {
@@ -399,7 +398,7 @@
                 }
                 }
             },
-            "16 regular | body": {
+            "link-regular": {
                 "description": "Lato 16/24 Regular | Links",
                 "type": "custom-fontStyle",
                 "value": {
@@ -421,10 +420,9 @@
                     "exportKey": "font"
                 }
                 }
-            }
             },
-            "caption": {
-            "12 bold caps": {
+
+            "caption-bold-caps": {
                 "description": "Lato 12/16 BOLD CAPS | Caption",
                 "type": "custom-fontStyle",
                 "value": {
@@ -447,7 +445,7 @@
                 }
                 }
             },
-            "12 bold": {
+            "caption-bold": {
                 "description": "Lato 12/16 Bold",
                 "type": "custom-fontStyle",
                 "value": {
@@ -470,7 +468,7 @@
                 }
                 }
             },
-            "12 regular": {
+            "caption-regular": {
                 "description": "Lato 12/16 Regular | Caption",
                 "type": "custom-fontStyle",
                 "value": {
@@ -493,385 +491,7 @@
                 }
                 }
             }
-            }
-        },
-        "mobile": {
-            "head": {
-            "26 regular | (m) h1": {
-                "description": "Lato 26/32 Regular | Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 26,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:505f2ba016fe24f7fcc4da46f006c7ef51d51323,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "26 light | (m) h1": {
-                "description": "Lato 26/32 Light | Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 26,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 300,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:85937ff9aba34579749ec8577e9c5b050e1d9c95,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "24 light | (m) h2": {
-                "description": "Lato 24/32 Light | Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 24,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 300,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:4afac6a55e8d02d7bfebcc198519243d3f720dd6,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "22 bold | (m) h2": {
-                "description": "Lato 22/32 Bold | Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 22,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 700,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:67604b8ced46ebfb214161c80e4872de383c6d5d,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "20 regular | (m) h3, h4": {
-                "description": "Lato 20/32 Regular| Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 20,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:8f19e929197aa2a421eff34caa1cbb75c2440c73,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "16 light | (m) h4, h5": {
-                "description": "Lato 16/32 Light | Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 16,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 300,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 32,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:07d7801382ce584cce3c9e5fb9b40ff013f50eff,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "16 bold | (m) h5, h6": {
-                "description": "Lato 16 Bold | Mobile +320px. \nMobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 16,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 700,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:88abbc1844d704028b7620a93a88cfe83a4cfd3d,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "16 regular | (m) h5, h6": {
-                "description": "Lato 16/Auto Regular | Mobile +320px. Mobile Headlines.",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 16,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:52de6dcd69bb47db40c7ade0e2ba720ba3fb8e3d,",
-                    "exportKey": "font"
-                }
-                }
-            }
-            },
-            "subtitle": {
-            "18 bold (m) | subtitle": {
-                "description": "Lato 18/32 Bold Mobile \nSubtitle / sub head",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 18,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 700,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:7526c5bbb949ed8b1ded8a9867236d2c5f89efd5,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "18 regular (m) | subtitle": {
-                "description": "Lato 18/32 Regular Mobile\nSubtitle / sub head",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 18,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:1f3cfe9665532c904834963bce935a1d39987f9a,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "18 light (m) | subtitle": {
-                "description": "Lato 18/32 Light Mobile\nSubtitle / sub head",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 18,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 300,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:9dcacad96be448e030646f87ca757d7da400a55e,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "14 bold caps (m) | subtitle": {
-                "description": "Lato 14 BOLD CAPS Mobile\nSubtitle / sub head",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 14,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 700,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "uppercase"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:7c34f4732004156fb7f9e21550de819f2441f86a,",
-                    "exportKey": "font"
-                }
-                }
-            }
-            },
-            "body": {
-            "14 regular (m) | body": {
-                "description": "Lato 14/20 Regular Mobile\nBody text",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 14,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 14,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:eb011de7fd20bd4679b1ee64ac898cb3a30bd2d0,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "14 bold (m) | body": {
-                "description": "Lato 14/20 Bold Mobile\nBody text",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 14,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 700,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 14,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:ffd6f3235c27e87ba78da33a3384082bc6a08313,",
-                    "exportKey": "font"
-                }
-                }
-            }
-            },
-            "links": {
-            "14 bold (m) | links": {
-                "description": "Lato 14/16 Bold | Links",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 14,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 700,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:1913cf5706206f8226665cfe0ffeeea56e4e6673,",
-                    "exportKey": "font"
-                }
-                }
-            },
-            "14 regular (m) | links": {
-                "description": "Lato 14/16 Regular | Links",
-                "type": "custom-fontStyle",
-                "value": {
-                "fontSize": 14,
-                "textDecoration": "none",
-                "fontFamily": "Lato",
-                "fontWeight": 400,
-                "fontStyle": "normal",
-                "fontStretch": "normal",
-                "letterSpacing": 0,
-                "lineHeight": 24,
-                "paragraphIndent": 0,
-                "paragraphSpacing": 0,
-                "textCase": "none"
-                },
-                "extensions": {
-                "org.lukasoppermann.figmaDesignTokens": {
-                    "styleId": "S:ac223e09a5b875e972b4d321ead80d4b760643f1,",
-                    "exportKey": "font"
-                }
-                }
-            }
-            }
+
         }
-        }
+    }
 }
