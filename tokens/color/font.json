@@ -1,6 +1,7 @@
 {
   "color": {
     "font": {
+      "base":         { "value": "{color.base.gray-1.value}"},
       "primary":      { "value": "{color.base.primary.value}" },
       "error":        { "value": "{color.base.error.value}" },
       "warning":      { "value": "{color.base.warning.value}" },
