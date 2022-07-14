@@ -4,20 +4,17 @@
   "description": "Base repo to transform json design tokens from the figma design token plugin via amazon style directory.",
   "main": "index.js",
   "devDependencies": {
-    "@ctrl/tinycolor": "^3.4.1",
     "@types/jest": "^27.0.3",
-    "chokidar-cli": "^3.0.0",
     "jest": "^27.0.6",
+    "style-dictionary": "^3.7.1",
     "ts-jest": "^27.0.3"
   },
   "scripts": {
     "start": "npm run transform-tokens",
-    "build": "node ./transformTokens.js",
     "transform-tokens": "node ./transformTokens.js",
     "test": "jest tests --coverage=false",
     "transform:android": "node ./examples/android/build.js",
-    "transform:ios": "node ./examples/ios/build.js",
-    "watch": "npm run build && chokidar  \"tokens/**/*.json\" -c \"npm run build\""
+    "transform:ios": "node ./examples/ios/build.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +27,7 @@
   },
   "homepage": "https://github.com/lukasoppermann/design-token-transformer#readme",
   "dependencies": {
-    "style-dictionary": "^3.7.1"
+    "@ctrl/tinycolor": "^3.4.1",
+    "nvm": "^0.0.4"
   }
 }
