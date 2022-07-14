@@ -11,7 +11,7 @@ module.exports = {
     'color/hex8ToRgba': require('../common/colorToRgbaString')
   },
   transformGroup: {
-    'custom/css': StyleDictionary.transformGroup.css.concat([
+    'custom/scss': StyleDictionary.transformGroup.css.concat([
       'size/px',
       'web/shadow',
       'web/radius',

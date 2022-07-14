@@ -5,9 +5,9 @@
   "platforms": {
     "scss": {
       "buildPath": "build/scss/",
+      "transformGroup": "custom/scss",
       "files": [
         {
-          "transformGroup": "custom/scss",
           "format": "scss/variables",
           "destination": "global/_color.scss",
           "filter": {
