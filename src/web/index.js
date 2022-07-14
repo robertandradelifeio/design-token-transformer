@@ -24,7 +24,8 @@ module.exports = {
     ])
   },
   format: {
-    'custom/css': require('./formatCss')
+    'custom/css': require('./formatCss'),
+    'custom/font-face': require('./formatFontFace'),
   },
   action: {}
 }
