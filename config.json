@@ -21,7 +21,7 @@
           "destination": "global/_font.scss",
           "filter": {
             "attributes": {
-              "category": "font"
+              "category": "typography"
             }
           }
         },

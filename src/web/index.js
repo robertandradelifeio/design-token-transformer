@@ -2,6 +2,7 @@ const StyleDictionary = require('style-dictionary')
 
 module.exports = {
   transform: {
+    'font/face': require('./fontFace'),
     'size/px': require('./sizePx'),
     'web/shadow': require('./webShadows'),
     'web/radius': require('./webRadius'),
@@ -12,6 +13,7 @@ module.exports = {
   },
   transformGroup: {
     'custom/scss': StyleDictionary.transformGroup.css.concat([
+      'font/face',
       'size/px',
       'web/shadow',
       'web/radius',

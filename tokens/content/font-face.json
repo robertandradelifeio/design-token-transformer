@@ -1,0 +1,38 @@
+{
+    "asset": {
+      "font": {
+        "Lato": {
+          "300": {
+            "normal": {
+              "value": "statics/fonts/Lato-Light.ttf",
+              "formats": ["woff2", "woff", "ttf"]
+            },
+            "italic": {
+              "value": "statics/fonts/Lato-LightItalic.ttf",
+              "formats": ["woff2", "woff", "ttf"]
+            }
+          },
+          "400": {
+            "normal": {
+              "value": "statics/fonts/Lato-Regular.ttf",
+              "formats": ["woff2", "woff", "ttf"]
+            },
+            "italic": {
+              "value": "statics/fonts/Lato-Italic.ttf",
+              "formats": ["woff2", "woff", "ttf"]
+            }
+          },
+          "700": {
+            "normal": {
+              "value": "statics/fonts/Lato-Bold.ttf",
+              "formats": ["woff2", "woff" , "ttf"]
+            },
+            "italic": {
+              "value": "statics/fonts/Lato-BoldItalic.ttf",
+              "formats": ["woff2", "woff", "ttf"]
+            }
+          }
+        }
+      }
+    }
+  }
