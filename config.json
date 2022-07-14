@@ -35,6 +35,25 @@
           }
         }
       ]
+    },
+    "scss-font-face": {
+      "transforms": ["font/face"],
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_fonts-custom.scss",
+          "format": "custom/font-face",
+          "filter": {
+            "attributes": {
+              "category": "asset",
+              "type": "custom-fontStyle"
+            }
+          },
+          "options": {
+            "fontPathPrefix": "#{$font-path}/"
+          }
+        }
+      ]
     }
   }
 }
