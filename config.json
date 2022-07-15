@@ -1,6 +1,7 @@
 {
   "source": [
-    "tokens/**/*.json"
+    "tokens/color/*.json",
+    "tokens/content/*.json"
   ],
   "platforms": {
     "scss": {
