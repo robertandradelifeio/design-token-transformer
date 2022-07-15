@@ -14,6 +14,9 @@
             "attributes": {
               "category": "color"
             }
+          },
+          "options": {
+            "showFileHeader": true
           }
         },
         {
@@ -50,7 +53,8 @@
             }
           },
           "options": {
-            "fontPathPrefix": "#{$font-path}/"
+            "fontPathPrefix": "#{$font-path}/",
+            "fileHeader": "customHeader"
           }
         }
       ]

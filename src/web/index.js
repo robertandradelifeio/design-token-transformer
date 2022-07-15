@@ -27,5 +27,8 @@ module.exports = {
     'custom/css': require('./formatCss'),
     'custom/font-face': require('./formatFontFace'),
   },
-  action: {}
+  action: {},
+  fileHeader: {
+    'customHeader': require('./customHeader')
+  }
 }
