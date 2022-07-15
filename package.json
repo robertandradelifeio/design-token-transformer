@@ -13,6 +13,7 @@
   "scripts": {
     "start": "npm run transform-tokens",
     "build": "node ./transformTokens.js",
+    "clean": "rm -rf ./build",
     "transform-tokens": "node ./transformTokens.js",
     "test": "jest tests --coverage=false",
     "transform:android": "node ./examples/android/build.js",
