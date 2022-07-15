@@ -1,3 +1,5 @@
+const { formatHelpers: { fileHeader } } = require("style-dictionary");
+
 // Register a custom format to generate @font-face rules.
 module.exports =  ({ dictionary: { allTokens }, options, file }) => {
     const fontPathPrefix = options.fontPathPrefix || '../';
@@ -11,7 +13,7 @@ module.exports =  ({ dictionary: { allTokens }, options, file }) => {
       'eot': 'embedded-opentype'
     };
 
-    return allTokens.reduce((fontList, prop) => {
+    return fileHeader({file, commentStyle: 'short'}) + allTokens.reduce((fontList, prop) => {
       const {
         attributes: { family, weight, style },
         formats,
