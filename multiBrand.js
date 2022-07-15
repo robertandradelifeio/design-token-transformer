@@ -1,6 +1,12 @@
 const StyleDictionaryPackage = require('style-dictionary');
+const fs = require('fs');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
+
+// get filenames of all files in ./tokens/brands folder
+const brands = fs.readdirSync('./tokens/brands');
+// get filenames of all files in ./tokens/platforms folder
+const platforms = fs.readdirSync('./tokens/platforms');
 
 function getStyleDictionaryConfig(brand, platform) {
   return {
@@ -48,8 +54,8 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['brand-1', 'brand-2', 'brand-3'].map(function (brand) {
-  ['web', 'ios', 'android'].map(function (platform) {
+brands.map(function (brand) {
+  platforms.map(function (platform) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${brand}]`);
