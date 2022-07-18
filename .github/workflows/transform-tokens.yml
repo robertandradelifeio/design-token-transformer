@@ -4,7 +4,7 @@ name: Transform tokens send from figma
 on:
   repository_dispatch:
     # and the event_type property from the request body is 'update-tokens'
-    types: update-tokens
+    types: [update-tokens, update-tokens-brands, update-tokens-platforms]
 # the following defines the jon that is run if the above is true
 jobs:
   build:
@@ -17,19 +17,40 @@ jobs:
       - uses: actions/checkout@master
       # if the folder named "tokens" does not exist, create it
       - name: mkdir "tokens" directory
+        if: ${{ github.event.action === 'update-tokens' }}
         # change tokens here (and in line 32) if you want to use a differently named folder 
         run: 'mkdir -p tokens'
+      - name: mkdir "brands" directory
+        if: ${{ github.event.action === 'update-tokens-brand' }}
+        run: 'mkdir -p tokens/brands'
+      - name: mkdir "platforms" directory
+        if: ${{ github.event.action === 'update-tokens-platform' }}
+        run: 'mkdir -p tokens/platforms'
       # this creates a json file from the stringified json from the request body
       - name: create json from request body
         id: create-json
         uses: jsdaniell/create-json@1.1.2
         with:
-          # it uses the figma filename that was send as then filename parameter
+          if: ${{ github.event.action === 'update-tokens' }}          # it uses the figma filename that was send as then filename parameter
           name: ${{ github.event.client_payload.filename }}
           # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
           # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
           dir: 'tokens'
+        with:
+          if: ${{ github.event.action === 'update-tokens-brands' }}          # it uses the figma filename that was send as then filename parameter
+          name: ${{ github.event.client_payload.filename }}
+          # it uses the json string that was send as the tokens parameter
+          json: ${{ github.event.client_payload.tokens }}
+          # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
+          dir: 'tokens/brands'
+        with:
+          if: ${{ github.event.action === 'update-tokens-platforms' }}          # it uses the figma filename that was send as then filename parameter
+          name: ${{ github.event.client_payload.filename }}
+          # it uses the json string that was send as the tokens parameter
+          json: ${{ github.event.client_payload.tokens }}
+          # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
+          dir: 'tokens/platforms'
       # we now initialize node to run amazon style dictionary to compile the tokens
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
