@@ -67,6 +67,7 @@ jobs:
           node-version: 14.x
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       - name: Transform design tokens 
+        if: ${{ github.event.action == 'update-tokens' }}
         run: 'npm i && npm run transform-tokens'
       - name: Transform design tokens multi-brand
         if: ${{ github.event.action == 'update-tokens-platforms' || github.event.action == 'update-tokens-brands'}}
