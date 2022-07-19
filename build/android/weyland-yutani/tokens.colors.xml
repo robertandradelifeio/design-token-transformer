@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 19 Jul 2022 03:14:38 GMT
+-->
+<resources>
+  <color name="color_colors_semi_red">#80ff5f04</color>
+  <color name="color_colors_multiple_fills_0">#ff40ffba</color>
+  <color name="color_colors_multiple_fills_1">#1a000000</color>
+  <color name="color_colors_single_blue">#ff663399</color>
+  <color name="color_colors_ref_blue">#ff663399</color>
+  <color name="color_colors_empty">#00000000</color>
+  <color name="color_colors_special_characters">#ff40df50</color>
+  <color name="color_colors_special_characters_nderung">#ff3456af</color>
+  
+</resources>

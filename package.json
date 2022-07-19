@@ -11,6 +11,7 @@
     "ts-jest": "^27.0.3"
   },
   "scripts": {
+    "update-platforms": "node ./multiBrand.js",
     "start": "npm run transform-tokens",
     "build": "node ./transformTokens.js",
     "clean": "rm -rf ./build",

@@ -6,7 +6,34 @@
   "platforms": {
     "scss": {
       "buildPath": "build/scss/",
-      "transformGroup": "custom/scss",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "less": {
+      "transformGroup": "custom/less",
+      "buildPath": "build/less/",
+      "files": [{
+        "destination": "_variables.less",
+        "format": "less/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "custom/css",
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "variables.css",
+        "format": "css/variables",
+        "filter": "validToken",
+        "options" : {
+          "showFileHeader": false
+        }
+      }]
+    },
+    "json-flat": {
+      "transformGroup": "js",
+      "buildPath": "build/json/",
       "files": [
         {
           "format": "scss/variables",
