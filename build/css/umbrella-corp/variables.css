@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Jul 2022 02:07:49 GMT
+ * Generated on Tue, 19 Jul 2022 03:07:09 GMT
  */
 
 :root {
@@ -47,8 +47,8 @@
   --color-colors-semi-red: rgba(255, 95, 4, 0.5);
   --color-colors-multiple-fills-0: rgb(64, 255, 186);
   --color-colors-multiple-fills-1: rgba(0, 0, 0, 0.1);
-  --color-colors-single-blue: rgb(186, 218, 85);
-  --color-colors-ref-blue: rgb(186, 218, 85);
+  --color-colors-single-blue: rgb(192, 255, 238);
+  --color-colors-ref-blue: rgb(192, 255, 238);
   --color-colors-empty: rgba(0, 0, 0, 0);
   --color-colors-special-characters: rgb(64, 223, 80);
   --color-colors-special-characters-nderung: rgb(52, 86, 175);
@@ -67,6 +67,7 @@
   --font-body-extra-bold-condensed-italic: condensed italic 800 12/14.4 Akzidenz-Grotesk Pro;
   --font-body-medium-extended-italic: expanded italic 500 20/24 Akzidenz-Grotesk Pro;
   --font-body-super: 900 22/26.4 Akzidenz-Grotesk Pro;
+  --font-platform-system: Tahoma, Arial, 'Helvetica Neue', sans;
   --effect-drop-shadow-single: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   --effect-inner-shadow-multiple-0: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   --effect-inner-shadow-multiple-1: inset 10px 100px 1px 0.5px rgb(0, 0, 0);
@@ -137,4 +138,5 @@
   --typography-body-super-paragraph-indent: 0;
   --typography-body-super-paragraph-spacing: 0;
   --typography-body-super-text-case: none;
+  --button-height: 40px;
 }

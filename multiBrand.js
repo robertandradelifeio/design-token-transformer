@@ -67,11 +67,9 @@ StyleDictionary.registerFilter({
 function getStyleDictionaryConfig(brand, platform) {
   return {
     "source": [
-      `tokens/brands/${brand}/*.json`,
       "tokens/globals/**/*.json",
-      `tokens/platforms/${platform}/*.json`,
       `tokens/brands/${brand}*.json`,
-      `tokens/platforms/${platform}*.json`
+      `tokens/platforms/${platform}/*.json`
     ],
     "platforms": {
       "css": {
@@ -191,7 +189,7 @@ brands.map(function (brand) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${brand}]`);
-    console.log('getting config...', getStyleDictionaryConfig(brand, platform));
+    // console.log('getting config...', getStyleDictionaryConfig(brand, platform));
 
     const StyleDictionaryExtended = StyleDictionary.extend({
       ...webConfig,
