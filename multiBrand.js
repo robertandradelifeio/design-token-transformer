@@ -76,7 +76,7 @@ function getStyleDictionaryConfig(brand, platform) {
     "platforms": {
       "css": {
         "transformGroup": "custom/css",
-        "buildPath": `build/css/${brand}`,
+        "buildPath": `build/css/${brand}/`,
         "files": [{
           "destination": "variables.scss",
           "format": "css/variables"
