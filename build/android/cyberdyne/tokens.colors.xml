@@ -8,8 +8,8 @@
   <color name="color_colors_semi_red">#80ff5f04</color>
   <color name="color_colors_multiple_fills_0">#ff40ffba</color>
   <color name="color_colors_multiple_fills_1">#1a000000</color>
-  <color name="color_colors_single_blue">#ffc0ffee</color>
-  <color name="color_colors_ref_blue">#ffc0ffee</color>
+  <color name="color_colors_single_blue">#ff000000</color>
+  <color name="color_colors_ref_blue">#ff000000</color>
   <color name="color_colors_empty">#00000000</color>
   <color name="color_colors_special_characters">#ff40df50</color>
   <color name="color_colors_special_characters_nderung">#ff3456af</color>
